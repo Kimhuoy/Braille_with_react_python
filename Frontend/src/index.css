@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300;400&display=swap');
+    
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"]:focus ~ .input-text{ 
+    @apply text-blue-500 transform bg-white -translate-y-4 -translate-x-4 scale-75;
+}
+body {
+    font-family: 'Koh Santepheap','Noto Sans', sans-serif;
+    background-color: rgba(245,247,248,255);
+    color: #15274b; 
+  }
+
+
